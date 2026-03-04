@@ -175,7 +175,7 @@ sequenceDiagram
     
     API->>EventStore: TransferInitiated
     API->>EventStore: MoneyWithdrawn (A)
-    API->>EventStore: MoneyDeposited (B) ❌ FAILS
+    API->>EventStore: MoneyDeposited (B) x FAILS
     
     Note over API: Compensate!
     
